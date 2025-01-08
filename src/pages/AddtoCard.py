@@ -1,3 +1,5 @@
+import time
+
 from src.pages.CheckOut import CheckOut
 
 
@@ -5,7 +7,7 @@ class AddtoCard:
     def __init__(self, page):
         self.page= page
         self._addtocardassertionloc = page.locator("//h2[text()='Shopping Cart']")
-        self._quantityincrease = page.locator("//div[@class='cart-price-text']//div[@class='input-group']//input[@class='503635-button-plus button-plus']")
+        self._quantityincrease = page.locator("//div[@class='cart-price-text']//div[@class='input-group']//input[@value='+']")
         self._addtocardcheckoutbtnloc = page.locator("//div[@class='card']/a[text()='Checkout']")
 
     def click_increase_quantity(self):

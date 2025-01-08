@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e25dc3b-1732-433b-a3c8-ea0fcddebe1d" name="Changes" comment="" />
+    <list default="true" id="0e25dc3b-1732-433b-a3c8-ea0fcddebe1d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AddtoCard.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AddtoCard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/PLpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PLpage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/addtocard/test_addtocard.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/addtocard/test_addtocard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/checkout/test_checkout.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/checkout/test_checkout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/homepage/test_homepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/homepage/test_homepage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/login/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/login/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pdpage/test_pdpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/pdpage/test_pdpage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/plpage/test_plpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/plpage/test_plpage.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

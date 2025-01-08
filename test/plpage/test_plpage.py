@@ -17,3 +17,20 @@ def test_plpage(set_up_tear_down) -> None:
         print("On Product Description Page")
     else:
         print("Not on Product Description Page")
+
+
+def test_PLPage_addtowhislist_gotowhislist_addtocard_checkout(set_up_tear_down) -> None:
+    page = set_up_tear_down
+    credential = {'email': 'muhammad.akmal@cartlow.com', 'password': 'Test!123'}
+    loginpage = LoginPage(page)
+    categoryname = "Clearance"
+    product_title = 'Genuine Apple magic keyboard  for Mac A2450 - Soft Pink'
+    checkoutpage = loginpage.dologin(credential) \
+        .getcategory(categoryname) \
+        .addtowhishlist() \
+        .hoveronaccount() \
+        .wishlistitemaddtocard(product_title) \
+        .whislistcheckout()\
+        .click_on_checkout_btn_add_to_card_page()
+    expect(checkoutpage._checkoutasser).to_have_text("Payment method")
+
